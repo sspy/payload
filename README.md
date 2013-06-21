@@ -31,8 +31,13 @@ Here is the basic flow:
   4. Using a form editor and other slick tools, they create a form for the client to fill in.
   5. The developer select a theme for the CMS and a username/password for the client.
   6. The system will generate an id for you for *each* field, like PayloadAboutUsTextarea.
-  7. Now, in each .html, .php, etc page that the client wants editable the developer must put a script tag that is also provde by the Payload sytem.
-  8. Then the developer must at each place that is to update put a div like <div data-payload-id='PayloadAboutUsTextarea'></div>.
+  7. Now, in each .html, .php, etc page that the client wants editable the developer must put a script tag that is also provde by the Payload sytem. Something like:
+
+    &lt;script src='www.payload-cms.com/FHj64FnbcHJHjkfUHHgqlkaPOUNDBFj'&gt;&lt;/script&gt;
+
+  8. Then the developer must at each place that is to update put a div like
+  
+     &lt;div data-payload-id='PayloadAboutUsTextarea'&gt;&lt;/div&gt;.
 
 That's it! So now when the clients page is hit, the Payload javascript file is loaded that corresponds to this customer's data.
 
