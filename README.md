@@ -33,7 +33,7 @@ Here is the basic flow:
   6. The system will generate an id for you for *each* field, like PayloadAboutUsTextarea.
   7. Now, in each .html, .php, etc page that the client wants editable the developer must put a script tag that is also provde by the Payload sytem. Something like:
 
-    &lt;script src='www.payload-cms.com/FHj64FnbcHJHjkfUHHgqlkaPO6icoBFj'&gt;&lt;/script&gt;
+    &lt;script src='www.payload-cms.com/FHj64FnbcHJHjkfUHHgqlkaPO6icoBFj' &gt; &lt;/script&gt;
 
   8. Then the developer must at each place that is to update put a div like
   
