@@ -1,7 +1,7 @@
 payload
 =======
 
-Payload -- Cloud enabled content binding with dead simple setup.
+payload -- cloud enabled content binding with dead simple setup
 
 Sometimes a developer is tasked with making an existing static site CMS-enabled.
 
