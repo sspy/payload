@@ -35,9 +35,11 @@ Here is the basic flow:
 
     &lt;script src='www.payload-cms.com/FHj64FnbcHJHjkfUHHgqlkaPO6icoBFj' type='text/javascript' &gt; &lt;/script&gt;
 
-  8. Then the developer must at each place that is to update put a div like
+  8. The system will give a preview of the html for each field that the dev should copy paste in the client's.. something like this:
   
      &lt;div data-payload-id='PayloadAboutUsTextarea'&gt;&lt;/div&gt;.
+
+
 
 That's it! So now when the clients page is hit, the Payload javascript file is loaded that corresponds to this customer's data.
 
