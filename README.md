@@ -36,13 +36,13 @@ Here is the basic flow:
 
     &lt;script src='www.payload-cms.com/FHj64FnbcHJHjkfUHHgqlkaPO6icoBFj' type='text/javascript' &gt; &lt;/script&gt;
 
-  8. The system will give a preview of the html for each field that the dev should copy paste in the client's.. something like this:
+  8. The system will give a preview of the html for each field that the dev should copy paste in the client's code.. something like this:
   
      &lt;div data-payload-id='PayloadAboutUsTextarea'&gt;&lt;/div&gt;.
 
 
 
-That's it! So now when the clients page is hit, the Payload javascript file is loaded that corresponds to this customer's data.
+That's it! So now when the clients page is hit, the Payload javascript file is loaded that corresponds to this client's data.
 
 The script will attempt to load the data first from local storage.
 
