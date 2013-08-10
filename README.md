@@ -2,6 +2,7 @@ payload
 =======
 
 payload -- cloud enabled content binding with dead simple setup
+payoad also lets you mock objects?????
 
 Sometimes a developer is tasked with making an existing static site CMS-enabled.
 
